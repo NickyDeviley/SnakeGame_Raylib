@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{8c596d5f-e640-44d0-8432-c012660e1dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{c5859b1c-59ef-4907-b2af-eb3d191f5c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Snake">
+      <UniqueIdentifier>{60e8ccb9-13ca-4b4f-a6c9-265722d1b869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Comida">
+      <UniqueIdentifier>{f1a0806a-1ff5-4f0c-be74-29cc0ea7ef0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore\GameLoop">
+      <UniqueIdentifier>{1f687a9c-be00-4a94-9871-4d5b7ed14677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Posicao">
+      <UniqueIdentifier>{8e2d35d9-dd57-43d5-b631-e572cdc827fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Objects\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>GameCore\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Posicao.cpp">
+      <Filter>Objects\Posicao</Filter>
+    </ClCompile>
+    <ClCompile Include="Comida.cpp">
+      <Filter>Objects\Comida</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Snake.h">
+      <Filter>Objects\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Direcao.h">
+      <Filter>Objects\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoop.h">
+      <Filter>GameCore\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Posicao.h">
+      <Filter>Objects\Posicao</Filter>
+    </ClInclude>
+    <ClInclude Include="Comida.h">
+      <Filter>Objects\Comida</Filter>
+    </ClInclude>
+    <ClInclude Include="Colisao.h">
+      <Filter>Objects\Snake</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

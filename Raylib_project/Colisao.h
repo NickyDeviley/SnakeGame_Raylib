@@ -1,0 +1,13 @@
+#pragma once
+
+enum class Colisao {
+
+	COMIDA,
+	CORPO,
+	BORDA_ESQUERDA,
+	BORDA_DIREITA,
+	BORDA_CIMA,
+	BORDA_BAIXO,
+	NENHUMA
+
+};
